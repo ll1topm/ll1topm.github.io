@@ -1,0 +1,1021 @@
+@font-face {
+font-family: Proxima Nova;
+src: url(fonts/proxima nova light.otf);
+}
+
+.buttonText1 {
+position: absolute;
+top: 170px;
+left: 240px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+ background: rgb(0,69,130);
+border-radius: 8px;
+  padding: .7em 1.5em;
+  outline: none;
+
+} 
+#button1:hover { background: rgb(2,97,181); }
+#button1:active { background: rgb(2,69,150); }
+
+ .center1 {
+margin-left: 100px;
+ position: relative;
+top: 125px;
+
+vertical-align: middle;
+text-align: center;
+font-size: 20px;
+}
+
+.st1, .st2, .st3, .st4 {
+	margin-left: 35px;
+	float: left;
+	width: 380px;
+	padding-right: 50px;
+	position: relative;
+	top: 140px;
+}
+
+.text_2 {
+	margin: auto;
+	position: relative;
+	top: 200px; 
+    margin-bottom: 1em;
+	font-size: 22px;
+	font-family: proxima nova;
+}
+p {
+    margin-top: 0.5em; 
+    margin-bottom: 1em;
+}
+
+.foots1 {
+position: absolute;
+top: 170px;
+left: 910px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+} 
+.foots2 {
+position: absolute;
+top: 170px;
+left: 1170px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+
+}
+#button2:hover { background: rgb(2,97,181); }
+#button2:active { background: rgb(2,69,150); }
+
+.text_3 {
+position: relative;
+bottom: 100px;
+
+font-size: 26px;
+}
+
+.center2 {
+ position: absolute;
+ top: -100px;
+ right: 110%;}
+
+
+.buttonText3 {
+position: fixed;
+top: 170px;
+left: 240px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+ background: rgb(0,69,130);
+border-radius: 8px;
+  padding: .7em 1.5em;
+  outline: none;
+
+} 
+#button3:hover { background: rgb(2,97,181); }
+#button3:active { background: rgb(2,69,150); }
+
+.text_4 {
+position: relative;
+bottom: 150px;
+font-size: 26px;
+}
+
+
+
+ .center4 {
+display: block; 
+position: absolute;
+top: 110px;
+left: 170px;
+}
+
+.buttonText4 {
+margin: 5;
+position: float-bottom;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+border-bottom:.4em solid #feae21;
+  outline: none;
+} 
+#button4:hover { border-bottom:.4em solid #feae21;}
+#button4:active { border-bottom:.4em solid #feae21; }
+
+.buttonText5 {
+position: fixed;
+bottom: 170px;
+left: 600px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+ background: rgb(0,69,130, 0.5);
+border-radius: 8px;
+  padding: .7em 1.5em;
+  outline: none;
+
+} 
+#button5:hover { background: rgb(2,97,181); }
+#button5:active { background: rgb(2,69,150); }
+
+.foottxt {
+position: absolute;
+left: -1000px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+ background: rgb(0,69,130, 0.5);
+  outline: none;
+
+} 
+#button6:hover { background: rgb(2,97,181); }
+#button6:active { background: rgb(2,69,150); }
+
+.buttonText7 {
+position: fixed;
+bottom: 170px;
+left: 1240px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+ background: rgb(0,69,130, 0.5);
+border-radius: 8px;
+  padding: .7em 1.5em;
+  outline: none;
+
+} 
+
+
+.buttonText8 {
+margin: 5;
+position: float-bottom;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+border-radius: 8px;
+  padding: .7em 1.5em;
+  outline: none;
+} 
+
+
+#button8:hover { color: #fff; background: rgb(255,202,0); }
+#button8:active { background: rgb(255,120,0); }
+
+.p4 {
+ position: absolute;
+ top: 50px;
+ left: 1200px;
+}
+
+.p1 {
+	position: relative;
+	left: 5px;
+	bottom: 10px; 
+    margin-bottom: 1em;
+	font-size: 26px;
+	font-family: proxima nova;
+}
+
+.p2 {
+	position: relative;
+	left: 5px;
+	top: 210px; 
+    margin-bottom: 1em;
+	font-size: 40px;
+	font-family: proxima nova;
+	
+}
+.p3 {
+	position: relative;
+	left: 5px;
+	top: 780px; 
+    margin-bottom: 1em;
+	font-size: 40px;
+	font-family: proxima nova;
+}
+.line: {
+	position: absolute;
+	top: 100px;
+	background: rgb (255,202,0)
+	}
+	
+.header {
+/* height: 60px; */
+height: 60px;
+background: url(../images/menu.png) no-repeat;
+background-size: 100%;
+
+}
+.up {
+	/* height: 20px; */
+	height: 20px;
+	background: url(../images/menu.png) no-repeat;
+	background-size: 100%;
+}
+
+.footer {
+position: absolute;
+top: 170px;
+left: 510px;
+	
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+}
+
+.sliderA {
+width: 1280px;
+height: 600px;
+position: relative;
+text-align: center;
+vertical-align: middle;
+
+}
+.sliderA > input {
+        display: none;
+    }
+	.sliderA > input + label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+
+        z-index: 100;
+        position: relative;
+
+        margin-right: 4px;
+        top: 90%;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderA > input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .sliderA > input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+	 .sliderA > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	.sliderA > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderA > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	    .sliderA > div > p {
+        position: absolute;
+        top: 500px;
+        left: -620px;
+        right: 0px;
+        text-align: center;
+		font-size: 60px;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+    }
+	    .sliderA > input + label + div + label {
+        display: none;
+    }
+
+    .sliderA > input:checked + label + div + label {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
+.logo {
+	margin-top: 10px;
+	margin-left: 250px;
+}
+.leftimg {
+    float:left;
+    margin: 7px 15px 7px 0;
+   }
+.features {
+
+position: relative;
+top: 55px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: rgb(255,202,0);
+text-decoration: none;
+
+  padding: 0.7em 1.5em;
+  outline: 4.5px solid #d8d7d7;
+   background: rgb(255,255,255);
+	text-align: center;
+	margin: 1.4em 0em 2em 0em;
+	vertical-align: middle;
+
+  }
+
+#feat_b:hover { color: #000; background: rgb(255,202,0); }
+#feat_b:active { background: rgb(255,160,0); }
+
+.txt {
+	position: relative;
+	left: -4%;
+	top: 50px;
+	vertical-align: middle;
+}
+.cent {
+	position: relative;
+	left: 3%;
+}
+.otzv {
+position: relative;
+top: 55px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+text-decoration: none;
+  padding: .7em 1.5em;
+   background: rgb(255,255,255 0);
+	text-align: center;
+	vertical-align: middle;
+}
+.otz {
+	margin: 0px auto;
+	float: left;
+	width: 400px;
+	padding-right: 60px;
+	position: relative;
+	top: 140px;
+}
+
+.sliderb {
+width: 1280px;
+height: 800px;
+position: relative;
+bottom: 30px;
+text-align: center;
+vertical-align: middle;
+}
+.sliderb > input {
+        display: none;
+    }
+	.sliderb > input + label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+
+        z-index: 100;
+        position: relative;
+
+        margin-right: 4px;
+        top: 90%;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderb > input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .sliderb > input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+	 .sliderb > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	.sliderb > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderb > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	    .sliderb > div > p {
+        position: absolute;
+        top: 200px;
+        right: 385px;
+        text-align: center;
+		font-size: 60px;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+    }
+		.sliderb > div > a {
+		position: absolute;
+        top: 350px;
+        right: 380px;
+		width: 500px;
+        text-align: center;
+		font-size: 24px;
+        color: #000;
+	}
+	.sliderb > div > h1 {
+        position: absolute;
+        top: 20px;
+		left: 550px;
+        text-align: center;
+		font-size: 60px;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+    }
+	    .sliderb > input + label + div + label {
+        display: none;
+    }
+
+    .sliderb > input:checked + label + div + label {
+		        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
+
+.sliderc {
+width: 400px;
+height: 300px;
+position: relative;
+top: 40px;
+left: -600px;
+text-align: center;
+vertical-align: middle;
+}
+.sliderc > input {
+        display: none;
+    }
+	.sliderc > input + label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+
+        z-index: 100;
+        position: relative;
+
+        margin-right: 4px;
+        top: 90%;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderc > input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .sliderc > input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+	 .sliderc > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	.sliderc > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderc > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	    .sliderc > div > p {
+        position: absolute;
+        top: 20px;
+        right: 385px;
+        text-align: center;
+		font-size: 24px;
+        color: #000;
+        text-shadow: 1px 1px 2px #000;
+    }
+		.sliderc > div > a {
+		position: absolute;
+        top: 230px;
+        right: 140px;
+		width: 300px;
+        text-align: center;
+		font-size: 26px;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+	}
+
+	    .sliderc > input + label + div + label {
+        display: none;
+    }
+
+    .sliderc > input:checked + label + div + label {
+		        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
+	
+	
+.sliderd {
+width: 400px;
+height: 300px;
+position: absolute;
+top: 40px;
+left: -300px;
+text-align: center;
+vertical-align: middle;
+}
+.sliderd > input {
+        display: none;
+    }
+	.sliderd > input + label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+
+        z-index: 100;
+        position: relative;
+
+        margin-right: 4px;
+        top: 90%;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderd > input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .sliderd > input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+	 .sliderd > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	.sliderd > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderd > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	    .sliderd > div > p {
+        position: absolute;
+        top: 20px;
+        right: 385px;
+        text-align: center;
+		font-size: 24px;
+        color: #000;
+        text-shadow: 1px 1px 2px #000;
+    }
+		.sliderd > div > a {
+		position: absolute;
+        top: 230px;
+        right: 140px;
+		width: 300px;
+        text-align: center;
+		font-size: 26px;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+	}
+
+	    .sliderd > input + label + div + label {
+        display: none;
+    }
+
+    .sliderd > input:checked + label + div + label {
+		        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
+.slidere {
+width: 400px;
+height: 300px;
+position: absolute;
+top: 100px;
+left: 810px;
+text-align: center;
+vertical-align: middle;
+}
+.slidere > input {
+        display: none;
+    }
+	.slidere > input + label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+
+        z-index: 100;
+        position: relative;
+
+        margin-right: 4px;
+        top: 90%;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .slidere > input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .slidere > input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+	 .slidere > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	.slidere > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .slidere > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	    .slidere > div > p {
+        position: absolute;
+        top: 20px;
+        right: 385px;
+        text-align: center;
+		font-size: 24px;
+        color: #000;
+        text-shadow: 1px 1px 2px #000;
+    }
+		.slidere > div > a {
+		position: absolute;
+        top: 230px;
+        right: 140px;
+		width: 300px;
+        text-align: center;
+		font-size: 26px;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+	}
+
+	    .slidere > input + label + div + label {
+        display: none;
+    }
+
+    .slidere > input:checked + label + div + label {
+		        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
+.sliderf {
+width: 400px;
+height: 300px;
+position: absolute;
+top: 100px;
+left: 1410px;
+text-align: center;
+vertical-align: middle;
+}
+.sliderf > input {
+        display: none;
+    }
+	.sliderf > input + label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+
+        z-index: 100;
+        position: relative;
+
+        margin-right: 4px;
+        top: 90%;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderf > input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .sliderf > input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+	 .sliderf > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	.sliderf > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderf > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	    .sliderf > div > p {
+        position: absolute;
+        top: 20px;
+        right: 385px;
+        text-align: center;
+		font-size: 24px;
+        color: #000;
+        text-shadow: 1px 1px 2px #000;
+    }
+		.sliderf > div > a {
+		position: absolute;
+        top: 230px;
+        right: 140px;
+		width: 300px;
+        text-align: center;
+		font-size: 26px;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+	}
+
+	    .sliderf > input + label + div + label {
+        display: none;
+    }
+
+    .sliderf > input:checked + label + div + label {
+		        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
+.sliderg {
+width: 400px;
+height: 300px;
+position: absolute;
+top: 570px;
+left: 810px;
+text-align: center;
+vertical-align: middle;
+}
+.sliderg > input {
+        display: none;
+    }
+	.sliderg > input + label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+
+        z-index: 100;
+        position: relative;
+
+        margin-right: 4px;
+        top: 90%;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderg > input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .sliderg > input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+	 .sliderg > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	.sliderg > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderg > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	    .sliderg > div > p {
+        position: absolute;
+        top: 20px;
+        right: 385px;
+        text-align: center;
+		font-size: 24px;
+        color: #000;
+        text-shadow: 1px 1px 2px #000;
+    }
+		.sliderg > div > a {
+		position: absolute;
+        top: 230px;
+        right: 140px;
+		width: 300px;
+        text-align: center;
+		font-size: 26px;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+	}
+
+	    .sliderg > input + label + div + label {
+        display: none;
+    }
+
+    .sliderg > input:checked + label + div + label {
+		        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
+.sliderh {
+width: 400px;
+height: 300px;
+position: absolute;
+top: 570px;
+left: 1410px;
+text-align: center;
+vertical-align: middle;
+}
+.sliderh > input {
+        display: none;
+    }
+	.sliderh > input + label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+
+        z-index: 100;
+        position: relative;
+
+        margin-right: 4px;
+        top: 90%;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderh > input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .sliderh > input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+	 .sliderh > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	.sliderh > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderh > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	    .sliderh > div > p {
+        position: absolute;
+        top: 20px;
+        right: 385px;
+        text-align: center;
+		font-size: 24px;
+        color: #000;
+        text-shadow: 1px 1px 2px #000;
+    }
+		.sliderh > div > a {
+		position: absolute;
+        top: 230px;
+        right: 140px;
+		width: 300px;
+        text-align: center;
+		font-size: 26px;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+	}
+
+	    .sliderh > input + label + div + label {
+        display: none;
+    }
+
+    .sliderh > input:checked + label + div + label {
+		        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
